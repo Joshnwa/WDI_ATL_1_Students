@@ -1,5 +1,0 @@
-<h1>Search Results:</h1>
-
-<% @movies.each do |movie| %>
-  <p><%= link_to movie["Title"], selection_path + "?title=#{movie["Title"]}" %></p>
-<% end %>

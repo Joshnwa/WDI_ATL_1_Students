@@ -1,3 +1,0 @@
-class VenuesController < ApplicationController
-  
-end

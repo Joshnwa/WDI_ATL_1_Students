@@ -1,9 +1,0 @@
-<p>Here is your current watchlist:</p>
-
-<ul>
-  <% @movies.each do |movie| %>
-    <li><a href="/movies/<%= movie.imdb_id %>"><%= movie.title %></a></li>
-  <% end %>
-</ul>
-
-<%= link_to "Home", root_path %>

@@ -1,1 +1,0 @@
-char[] alphabet = "abcdefghijklmnopqrstuvwxyz".toCharArray();
