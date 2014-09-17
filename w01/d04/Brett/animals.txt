@@ -1,2 +1,0 @@
-whale,Shamu
-deer,Bambi

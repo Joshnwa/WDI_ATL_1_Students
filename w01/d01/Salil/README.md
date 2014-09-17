@@ -1,2 +1,0 @@
-Salil
-Fav food: sandwich

@@ -1,3 +1,0 @@
-Stephen
-
-Favorite food: pasta!
