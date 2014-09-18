@@ -22,7 +22,6 @@
 
 ## Intro to Web Applications
 ##### Networking
-##### Sinatra
 ##### HTML & CSS
 ##### Server-side Templating
 
