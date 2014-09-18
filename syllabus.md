@@ -50,8 +50,8 @@
 ## Front-end MV* Frameworks
 
 ##### Front-end Model/View Separation
-##### Backbone Models & Model Testing
-##### Backbone Views
+##### Angular Models & Model Testing
+##### Angular Views
 ##### Client-side Templating
 ##### Client-side Routing
 ##### View testing & SinonJS
