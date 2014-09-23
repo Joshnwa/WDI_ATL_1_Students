@@ -2,7 +2,7 @@
 
 | Contacts            | Email
 | -------------       |:-------------:
-| Ashley Crover       | ashleyc@ga.co
+| Ashley Craver       | ashleyc@ga.co
 | Mike Hopper         | michael.hopper@generalassemb.ly 
 | Gerry Pass          | gerry.pass@generalassemb.ly
 | Marc Wright         | marc.wright@ga.co 
