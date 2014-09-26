@@ -25,7 +25,7 @@ As a student, you have **pull** permissions on this repository. We recommend mai
 
 ##How often should I check this repo?
 
-Daily! Instructors will be adding content to this repository every day, so a ```git pull``` in the morning (and after lunch) is a great idea.
+Daily! Instructors will be adding content to this repository every day, so a `git pull` in the morning (and after lunch) is a great idea.
 
 ##Security
 Security Guards are here 8AM-10PM. For an emergency or if you need someone to walk with you to your car call (404) 207-0140.
