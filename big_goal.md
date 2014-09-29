@@ -1,6 +1,6 @@
-#Big Goal:
+#Big Goal
 
-**Our goal(s) is (are) to... 
+Our goal(s) is (are) to... 
 
 * Learn through understanding not memorization
 * Understand possibilities
