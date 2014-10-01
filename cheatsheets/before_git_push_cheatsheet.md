@@ -1,4 +1,4 @@
-##Before `git push`
+##Before $git push
 
 $`git checkout master`
 
@@ -13,6 +13,6 @@ $`git merge master`
  1. fix them
  2. $`git add .`
  3. $`git commit -m "Fixed conflicts"`
- end
+ 4. end
  
- Yay! ---> $`git push`
+ ##Yay! ---> $`git push`
