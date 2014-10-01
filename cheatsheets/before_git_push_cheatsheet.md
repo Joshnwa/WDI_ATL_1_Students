@@ -9,8 +9,8 @@ $`git checkout <branch_name_here>`
 $`git merge master`
 
 
-**if conflicts?**
- 1. fix them
+##if conflicts?
+ 1. fix them conflicts
  2. $`git add .`
  3. $`git commit -m "Fixed conflicts"`
  4. $`git push`
