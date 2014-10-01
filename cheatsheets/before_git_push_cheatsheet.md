@@ -13,6 +13,4 @@ $`git merge master`
  1. fix them
  2. $`git add .`
  3. $`git commit -m "Fixed conflicts"`
- 4. end
- 
- ##Yay! ---> $`git push`
+ 4. $`git push`
