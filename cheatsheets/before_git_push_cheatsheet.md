@@ -1,18 +1,18 @@
-##Before 'git push'
+##Before `git push`
 
-$'git checkout master'
+$`git checkout master`
 
-$'git pull'
+$`git pull`
 
-$'git checkout <branch_name_here>'
+$`git checkout <branch_name_here>`
 
-$'git merge master'
+$`git merge master`
 
 
--if conflicts?
+**if conflicts?**
  1. fix them
- 2. $'git add .'
- 3. $'git commit -m "Fixed conflicts"'
+ 2. $`git add .`
+ 3. $`git commit -m "Fixed conflicts"`
  end
  
- Yay! ---> $'git push'
+ Yay! ---> $`git push`
