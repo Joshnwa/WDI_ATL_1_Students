@@ -70,13 +70,14 @@ FIRST, touch on SEMICOLONS.
 - __How do we add entries to a table? In the following tedious order__
   - `INSERT INTO students (name, age) VALUES ('Travis', 27);`
 
- 
+- __How do we remove entries from a table?__
+  - `DELETE FROM students WHERE age = 27;`
+  
 - __How do we update entries in a table?__
   - `UPDATE students SET age = 27 WHERE id = 1;`
 
 ## SQL QUERY DISSECTION
 - `SELECT <attributes> FROM <table_name> WHERE <attribute_name> = <desired_code>;` 
-
 
 
 
