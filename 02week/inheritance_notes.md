@@ -29,7 +29,7 @@ end
 
 Now in pry:
 `$ b = B.new`
-`$ b.y  RETURNS "I am a class method from A"`
+`$ b.y  RETURNS "I am an instance method from class A"`
 
 You can also set the random_property from class A in the child class B.
 `$ b.random_property = "I am actually interacting with an attribute in the class A"`
