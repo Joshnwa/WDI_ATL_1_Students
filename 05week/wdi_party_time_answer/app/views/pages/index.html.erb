@@ -1,0 +1,29 @@
+<h1>Movie Search</h1>
+
+<%= form_tag pages_path, :method => 'get' do %>
+    <%= text_field_tag :movie, params[:movie] %>
+    <%= submit_tag "Search", :name => nil %>
+<% end %>
+<br>
+Not sure which movie you want? Try <%= link_to "Cars" , pages_path(movie: "cars") %>
+
+<hr>
+
+<br>
+<h2><%= @movie['title'] %></h2>
+<%= image_tag @movie['posters']['profile'] %>
+<br>
+<% @movie.each do | key, value | %>
+	<% if value.is_a?(Hash) %>
+		<% # Iterate through nested hash %>
+		<ul>
+		<% value.each do | key, value | %>
+  		<li><strong><%= "#{key}: " %></strong>
+  		<%= value %></li>
+  	<% end %>
+  <% else %>
+  	<% # If it's not a nested hash, just output key and value %>
+		<strong><%= "#{key}: " %></strong>
+		<%= value %><br>
+  <% end %>
+<% end %>
