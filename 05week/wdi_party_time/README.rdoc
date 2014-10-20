@@ -1,0 +1,10 @@
+== README
+
+Search for your favorite movie using the Rotten Tomatoes API.
+
+* bundle install
+* rake db:migrate
+* rails s
+* then visit http://localhost:3000/pages to search.
+
+Now updated to handle nested JSON :).

@@ -1,0 +1,22 @@
+<h1>Movie Search</h1>
+
+<!-- Display the movie search box. Uses the 'get' method instead of 'post' -->
+<%= form_tag pages_path, :method => 'get' do %>
+    <%= text_field_tag :movie, params[:movie] %>
+    <%= submit_tag "Search", :name => nil %>
+<% end %>
+<br>
+Not sure which movie you want? Try <%= link_to "Cars" , pages_path(movie: "cars") %>
+
+<hr>
+
+<br>
+<!-- INSERT CODE HERE -->
+<!-- Display the @movie title in an <h2></h2> tag -->
+
+<!-- Display the ['posters']['profile'] poster using the rails image_tag helper -->
+
+<!-- Loop through the @movie hash using: 
+
+<!-- Display each key and value (AKA the movie info) -->
+
