@@ -57,13 +57,6 @@ First you need to link your machine to your Heroku account - a similar process t
 	- `git commit -m "precompiled assets locally"`
 	- `git push heroku master`
 
-
-
-###Set up your repo
-
-- `git init` in your app directory (if you haven't already)
-- `git add .` and `git commit -m "some message"` so there's something to push
-
 ###Create your Heroku app
 
 - `heroku domains` to check that you don't already have a Heroku app for this repo (if you see anything other than **!   No app specified**, you probably already have an app.)
