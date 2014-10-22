@@ -15,7 +15,7 @@ First you need to link your machine to your Heroku account - a similar process t
 
 3. [install Heroku toolbelt](https://toolbelt.heroku.com)
 
-4. `heroku login`
+4. Type `heroku login` into your Terminal
 
 5. Build and deploy your Rails app
 
