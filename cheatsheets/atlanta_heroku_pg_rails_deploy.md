@@ -42,7 +42,8 @@ First you need to link your machine to your Heroku account - a similar process t
 - **(only if you get an I18n error when you run rake tasks) Run the locales fix**
 	- Add the line `config.i18n.enforce_available_locales = true` to config/application.rb  following `class Application < Rails::Application` (usually ~ line 15 or 16)
 - **Prep your app for precompile**
-	- Open **config/environments/production.rb** 
+	- Open **config/environments/production.rb**
+	- Set `config.serve_static_assets` to true (should be line 23 or nearby)
 	- Set `config.assets.compile` to true (should be line 30 or nearby) 
 	- Open **config/initializers/assets.rb** 
 	- Overwrite the Rails-default comment that reads `# Rails.application.config.assets.precompile += %w( search.js )` (should be around line 8) with `# Rails.application.config.assets.precompile += %w[*.png *.jpg *.jpeg *.gif] `
