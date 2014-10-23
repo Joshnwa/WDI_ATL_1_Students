@@ -8,6 +8,7 @@
   * Push README.md to GitHub by 9am Monday
 
 ##Day 2 - Monday
+  * 1 Minute Pitch
   * Wire Frames
   * Trello Board
   * Coding
