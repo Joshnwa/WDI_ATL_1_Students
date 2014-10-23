@@ -1,4 +1,22 @@
-#Mary's GitHub README for MyCookbook
+#Project 1 README Requirements and Example
+<br/>
+
+##Your README.md should include
+
+  * Overview - Description of project
+  * Links:
+      * Heroku page
+      * Trello Board
+      * GitHub project
+  * User Stories
+  * Technologies Used
+  * Diagrams (embedded or links):
+      * ERD
+      * wireframes (picture or link to moqups, etc)
+     
+=========================================
+
+#Mary's GitHub README for MyCookbook <br/><br/>
 
 ##General Assembly WDI May 30, Project 1
 
