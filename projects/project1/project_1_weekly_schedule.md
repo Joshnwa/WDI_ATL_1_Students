@@ -21,18 +21,18 @@
   * Push to GitHub
   * Push to Heroku
 
-##Day 3 - Wednesday
+##Day 4 - Wednesday
   * Coding: Main User Stories
   * Making it pretty
   * Push to GitHub
   * Push to Heroku
 
-##Day 4 - Thursday
+##Day 5 - Thursday
   * Coding: Bonus User Stories
   * Refinement
   * Final Testing
   * Push to GitHub
   * Push to Heroku
 
-##Day 5 - Friday
+##Day 6 - Friday
   * Presentations / Demos
