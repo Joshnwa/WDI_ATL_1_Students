@@ -3,7 +3,7 @@ function sum(a, b) {
   return result;
 }
 
-function printGreeting(greeting, name) {
+function print_greeting(greeting, name) {
   if (greeting == null || greeting === undefined) {
       greeting = "Hello";
   }
@@ -15,6 +15,6 @@ if (name === null || name == undefined) {
 
 console.log('sum(3, 4) = ' + sum(3, 4));
 
-printGreeting("Hello", 'John');
-printGreeting(null, 'Susan');
-printGreeting();
+print_greeting("Hello", 'John');
+print_greeting(null, 'Susan');
+print_greeting();
