@@ -1,14 +1,8 @@
-(function() {
-    var app = angular.module('leatherLaneMarketApp', []);
+angular.module('leatherLaneMarketApp', [])
+     .controller('MarketController', ["$scope", function($scope){
+       
 
-     app.controller('MarketController', ["$scope", function($scope){
-       $scope.basket = 0;
 
-       $scope.addToBasket = function() {
-       $scope.basket ++
-       }
      }]);
 
-
-
-  })();
+  
