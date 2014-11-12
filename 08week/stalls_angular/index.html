@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="leatherLaneMarketApp">
+<head>
+  <title>Atlanta WDI Stalls App</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.20/angular.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <h1>Angular Leather Lane Market App</h1>
+
+
+    <div ng-controller="MarketController">
+    <button ng-click="addToBasket()">Click to add to basket</button>
+    <div>Your basket has {{ basket }} items in it</div>
+
+    <div>Using basket somewhere else: {{basket}}</div>
+
+  </div>
+
+</body>
+</html>
