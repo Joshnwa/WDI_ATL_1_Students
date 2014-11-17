@@ -1,0 +1,27 @@
+// ===================
+// ng-view animation
+// ===================
+.view-animation.ng-enter,
+.view-animation.ng-leave {
+  position: relative;
+}
+
+.view-animation.ng-enter {
+  -webkit-transition: ease-out all 0.3s 0.4s;
+  transition: ease-out all 0.3s 0.4s;
+}
+
+.view-animation.ng-leave {
+  -webkit-transition: 0.3s ease-out all;
+  transition: 0.3s ease-out all;
+}
+
+.view-animation.ng-enter,
+.view-animation.ng-leave.ng-leave-active {
+  opacity: 0;
+}
+
+.view-animation.ng-leave,
+.view-animation.ng-enter.ng-enter-active {
+  opacity: 1;
+}

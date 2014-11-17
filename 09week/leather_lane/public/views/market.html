@@ -1,0 +1,61 @@
+<div ng-cloak>
+  <nav>
+    <h2>Stalls</h2>
+    <input ng-model="search" placeholder="search"/>
+    <ul>
+      <li class="new_item" ng-show="newStall"
+          ng-class="{ highlighted: stall === selectedStall }"
+          ng-click="selectStall(newStall)">{{ newStall.name }}</li>
+
+      <li ng-repeat="stall in stalls | filter : searchFunction | orderBy:'name'"
+          ng-class="{ highlighted: stall === selectedStall }"
+          ng-click="selectStall(stall)">{{ stall.name }}</li>
+    </ul>
+
+    <a class="btn" ng-href="/#/add">Add item</a>
+  </nav>
+
+  <section ng-show="selectedStall">
+    <div ng-click="clearSelectedStall();" class="close"><a href="">X</a></div>
+    <h2>Selected Stall Details</h2>
+    <table ng-hide="editStall">
+      <tr>
+        <td>Name:</td>
+        <td>{{ selectedStall.name }}</td>
+      </tr>
+      <tr>
+        <td>Price:</td>
+        <td> {{ selectedStall.price | currency }}</td>
+      </tr>
+      <tr>
+        <td>Description:</td>
+        <td> {{ selectedStall.description}}</td>
+      </tr>
+    </table>
+
+    <table ng-show="editStall">
+      <tr>
+        <td>Name:</td>
+        <td><input ng-model="editStall.name" /></td>
+      </tr>
+      <tr>
+        <td>Price:</td>
+        <td><input ng-model="editStall.price" /></td>
+      </tr>
+      <tr>
+        <td>Description:</td>
+        <td><textarea ng-model="editStall.description"></textarea></td>
+      </tr>
+    </table>
+
+    <button ng-hide="editStall" ng-click="deleteStall(selectedStall);">Delete</button>
+    <button ng-hide="editStall" ng-click="setEditStall(selectedStall);">Edit</button>
+    <button ng-show="editStall" ng-click="clearEditStall();">Cancel</button>
+    <button ng-show="editStall" ng-click="updateStall(editStall);">Save</button>
+  </section>
+
+  <section ng-hide="selectedStall">
+    <h2>Leather Lane</h2>
+    <p>Leather Lane is an awesome market in Clerkenwell that has a wide variety of lunch options.  Select an option from the left to see more details.</p>
+  </section>
+</div>
