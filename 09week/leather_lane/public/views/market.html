@@ -1,4 +1,4 @@
-<div ng-cloak>
+<div class="view-wrapper">
   <nav>
     <h2>Stalls</h2>
     <input ng-model="search" placeholder="search"/>
@@ -11,7 +11,6 @@
           ng-class="{ highlighted: stall === selectedStall }"
           ng-click="selectStall(stall)">{{ stall.name }}</li>
     </ul>
-
     <a class="btn" ng-href="/#/add">Add item</a>
   </nav>
 

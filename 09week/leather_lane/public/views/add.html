@@ -1,14 +1,16 @@
-<nav>
-  <form name="stallForm" novalidate>
-    <label>Name</label>
-    <input type="text" ng-model="newStall.name" required/><br>
-    <label>Price</label>
-    <div class="warning-number">Price must be more than 1 and less than 10</div>
-    <input type="number" ng-model="newStall.price" required
-           min="1" max="9"/><br>
-    <label>Description</label>
-    <textarea ng-model="newStall.description"></textarea><br>
-    <button ng-click="cancel()">Cancel</button>
-    <button ng-click="addStall()" ng-disabled="stallForm.$invalid">Submit</button>
-  </form>
-</nav>
+<div class="view-wrapper">
+  <nav>
+    <form name="stallForm" novalidate>
+      <label>Name</label>
+      <input type="text" ng-model="newStall.name" required/><br>
+      <label>Price</label>
+      <div class="warning-number">Price must be more than 1 and less than 10</div>
+      <input type="number" ng-model="newStall.price" required
+             min="1" max="9"/><br>
+      <label>Description</label>
+      <textarea ng-model="newStall.description"></textarea><br>
+      <button ng-click="cancel()">Cancel</button>
+      <button ng-click="addStall()" ng-disabled="stallForm.$invalid">Submit</button>
+    </form>
+  </nav>
+</div>

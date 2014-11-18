@@ -1,3 +1,8 @@
+.view-wrapper {
+  position: absolute;
+  width: 100%;
+}
+
 @mixin transition($anim) {
   -webkit-transition: $anim;  // Safari/Chrome
      -moz-transition: $anim;  // Firefox
@@ -5,15 +10,35 @@
           transition: $anim;  // IE10+ and Future Browsers
 }
 
+@mixin transition-delay($delay) {
+  -webkit-transition-delay: $delay; /* Safari */
+  transition-delay:         $delay;
+}
+
 $transition-duration: 0.35s;
-$transition: $transition-duration ease-in-out all;
+$transition: $transition-duration linear all;
 
-.view-animation.ng-enter {
-  @include transition($transition);
+.view-animation {
+  &.ng-enter {
+    @include transition($transition);
+    // @include transition-delay($transition-duration);
 
-  opacity: 0;
+    opacity: 0;
 
-  &.ng-enter-active {
-    opacity: 1;
+    &.ng-enter-active {
+      opacity: 1;
+    }
   }
+
+/*
+  &.ng-leave {
+    @include transition($transition);
+
+    opacity: 1;
+
+    &.ng-leave-active {
+      opacity: 0;
+    }
+  }
+*/
 }

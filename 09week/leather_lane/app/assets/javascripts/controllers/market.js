@@ -3,8 +3,6 @@ angular.module('leatherLaneMarketApp')
             ["$scope", "stallService",
             function($scope, stallService) {
 
-  $scope.stalls = stallService.stalls;
-
   $scope.getStalls = function() {
     stallService.getAll().success(function(data) {
       $scope.stalls = data;
@@ -28,8 +26,6 @@ angular.module('leatherLaneMarketApp')
   $scope.deleteStall = function(stall) {
     stallService.delete(stall)
     .success(function(data) {
-      // $scope.getStalls();
-      $scope.stalls.splice($scope.stalls.indexOf(stall), 1);
       $scope.selectedStall = null;
     });
   };

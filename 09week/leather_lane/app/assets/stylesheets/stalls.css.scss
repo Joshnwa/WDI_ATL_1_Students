@@ -9,11 +9,46 @@ $highlight-color: $nice-blue;
 body {
   padding: 20px;
   text-align: center;
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a {
+  color: #000;
+  &:visited {
+    color: #666;
+  }
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
+}
+
+div {
+  &.field, &.actions {
+    margin-bottom: 10px;
+  }
 }
 
 h3 {
   font-size: 16px;
 }
+
 nav {
   border: 1px solid black;
   width: 300px;
@@ -152,18 +187,18 @@ li.ng-leave {
 /*  Uncoment this section when doing form validation
 */
 form input.ng-valid.ng-dirty {
-      background: #78FA89;
-    }
+  background: #78FA89;
+}
 form input.ng-invalid.ng-dirty {
-      background: #ff7373;
-    }
+  background: #ff7373;
+}
 
 form.ng-valid.ng-dirty {
-      border: 2px solid green;
-    }
+  border: 2px solid green;
+}
 form.ng-invalid.ng-dirty {
-      border: 2px solid #ff7373;
-    }
+  border: 2px solid #ff7373;
+}
 .warning-number {
   height: 0;
   opacity: 0;
