@@ -1,27 +1,15 @@
-// ===================
-// ng-view animation
-// ===================
-.view-animation.ng-enter,
-.view-animation.ng-leave {
-  position: relative;
-}
+
+$animation: 0.5s linear all;
 
 .view-animation.ng-enter {
-  -webkit-transition: ease-out all 0.3s 0.4s;
-  transition: ease-out all 0.3s 0.4s;
-}
+  -webkit-transition: $animation;  // Safari/Chrome
+  -moz-transition:    $animation;  // Firefox
+  -o-transition:      $animation;  // Opera
+  transition:         $animation;  // IE10+ and Future Browsers
 
-.view-animation.ng-leave {
-  -webkit-transition: 0.3s ease-out all;
-  transition: 0.3s ease-out all;
-}
-
-.view-animation.ng-enter,
-.view-animation.ng-leave.ng-leave-active {
   opacity: 0;
-}
 
-.view-animation.ng-leave,
-.view-animation.ng-enter.ng-enter-active {
-  opacity: 1;
+  &.ng-enter-active {
+    opacity: 1;
+  }
 }
