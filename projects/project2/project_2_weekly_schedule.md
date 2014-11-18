@@ -3,7 +3,7 @@
 ##Day 1 - Tuesday
   * Concept/Pitch
   * User Stories
-  * Wire Frames (bonus)
+  * Wire Frames
   * Push README.md to GitHub by 5pm
 
 ##Day 2 - Wednesday
