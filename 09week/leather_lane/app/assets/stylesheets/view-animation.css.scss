@@ -1,11 +1,15 @@
+@mixin transition($anim) {
+  -webkit-transition: $anim;  // Safari/Chrome
+     -moz-transition: $anim;  // Firefox
+       -o-transition: $anim;  // Opera
+          transition: $anim;  // IE10+ and Future Browsers
+}
 
-$animation: 0.5s linear all;
+$transition-duration: 0.35s;
+$transition: $transition-duration ease-in-out all;
 
 .view-animation.ng-enter {
-  -webkit-transition: $animation;  // Safari/Chrome
-  -moz-transition:    $animation;  // Firefox
-  -o-transition:      $animation;  // Opera
-  transition:         $animation;  // IE10+ and Future Browsers
+  @include transition($transition);
 
   opacity: 0;
 
