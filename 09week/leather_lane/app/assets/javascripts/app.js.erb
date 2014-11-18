@@ -2,11 +2,11 @@ angular.module('leatherLaneMarketApp', ['ngAnimate', 'ngRoute'])
 .config(function($routeProvider) {
   $routeProvider
   .when('/market', {
-    templateUrl: 'views/market.html',
+    templateUrl: '<%= asset_path "market.html" %>',
     controller: 'MarketController'
   })
   .when('/add', {
-    templateUrl: 'views/add.html',
+    templateUrl: '<%= asset_path "add.html" %>',
     controller: 'AddController'
   })
   .otherwise({
