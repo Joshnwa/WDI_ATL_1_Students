@@ -1,0 +1,75 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+
+/* Space out content a bit */
+body {
+  margin: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Side spacing for mobile first views */
+.header {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom: 1px solid #e5e5e5;
+
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 30px;  // Space out the masthead
+  }
+}
+
+ul, ol, dl {
+  list-style-type: none;
+  font-size: 1.5em;
+}
+
+.artist-view {
+  position: relative;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+@import 'mixins';
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #CCC;
+  text-align: center;
+}
+
+th, td {
+    padding: 5px;
+}
+
+th {
+  background-color: blue;
+  color: white;
+}
