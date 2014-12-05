@@ -2,6 +2,12 @@
 
 Here's a sampling of past WDI Final Projects! As you can see, people interpreted this project in MANY ways -- have fun!
 
+####GA Gallery
+
+[Link](http://gallery.ga.co/)
+
+Various projects from all GA courses
+
 ####Grappple (WDI LA 3/4)
 
 Image bookmarklet + color search
