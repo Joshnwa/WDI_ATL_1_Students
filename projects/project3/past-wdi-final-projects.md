@@ -97,3 +97,12 @@ Tools (LUTs) and Discussion Form for Film Editors/Cinematographers
 [Heroku Link](http://catchframe.herokuapp.com/)
 
 Rails + Mongoid.
+
+
+####Map With Color (WDI LA 5-6)
+
+Visualizes the indicators of the UN's Millennium Development Goals
+
+[Heroku Link](http://mapwithcolor.herokuapp.com/)
+
+Rails + Angular, Foundation, D3
