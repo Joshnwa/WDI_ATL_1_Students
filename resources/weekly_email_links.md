@@ -98,6 +98,7 @@ Don't feel obligated to read all of these -- they're just here in case you'd lik
 
 ####Markdown
 - [Markdown Syntax](http://daringfireball.net/projects/markdown/syntax)
+- [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)
 
 ####MVC 
 - [MVC Diagram](https://s3.amazonaws.com/uploads.hipchat.com/39979/486606/bYQli1b75e4OTX1/Screen%20Shot%202013-10-21%20at%2012.46.20%20PM.png)
